@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>happy wind man</title>
+	<link  rel="stylesheet" href="css/daohanglan.css" type= "text/css">
+	<style type="text/css">
+	 </style>
+	<script  src="js/shouye.js"></script>
+</head>
+<body >
+	<div  id="dingbu" >
+		<ul align="center" class="nav">
+		<li><a href="page.html" class="biaotiname">首页</a></li>
+	    <li><a href="article.html" class="biaotiname">文章</a>
+			  <ul id="tanchus" class="tanchu">
+				  <li><a class="biaotiname" href="boss.html">Boss介绍</a></li>
+			      <li><a class="biaotiname">NPC介绍</a></li>
+				  <li><a href="story.html"  class="biaotiname">背景故事</a></li>
+			  </ul>
+		</li>
+		<li><a class="biaotiname" href="2">留言板</a></li>
+	    <li><a class="biaotiname" href="2">Dark</a></li>
+
+		</ul>
+		<ul id="imbuttontwo" class="navtwo">
+		<li id="imgbutton" >
+		  <input  id="tubiao" alt="图标" type="image" onmouseove="tanchu()"   src="icon/search.png" href="https//:www.baidu.com" onclick="return dosubmit();" >
+			<ul class="tanchu" id="contesnt">
+				<li><input   id="sousuokuang" size="15" placeholder="Search" >
+				</li>
+			</ul>
+			</li></ul>
+		
+		
+	</div>
+	<div id="firstbackground" class="divbackground">
+		<h1 id="biaotimingzi" class="daxiao1">渔,</h1><h1 id="biaotimingzi2" class="daxiao">鱼</h1>
+	</div>
+	<div class="divbackgroundtwo" id="zuokuangkuang"><ul id="zuokuang"><li id="dabiaoti"><h4 id="xiaobiaoti1">404-你可能需要这些...</h4></li></ul><br>
+		<ul id="zuokuangfenzhi">
+		<li ><a class="zuokuang" href="2">前往神秘区域</a></li>
+		<li ><a class="zuokuang" href="article.html">所有文章</a></li>
+		<li ><a class="zuokuang" href="story.html">有趣的故事</a></li>
+		<li ><a class="zuokuang" href="2">右上角有搜索框哦</a></li>
+		</ul></div>
+	<div class="divbackgroundthree">
+		<ul id="youkuang"><li id="zhaopianyou"><img alt="头像" id="youkuangzhaopian" src="image/Mr_quin.png"></li>
+		<li id="zhaowo" ><d id="zhuawoziti" >来抓我呀</d></li>
+		<li id="iconheji" style="height: 50px">
+			<a href="微信二维码/微信二维码.html" title="求求你加一哈我滴微信八" target="_blank" id="Wechat"  onMouseOver="iconwechat2()" onMouseOut="iconwechat()" class="iconright" ><img alt="邮箱" id="imgwechat" class="icone" style="height: 27px" src="icon/微信.png"></a>
+			<a href="群二维码/群二维码.html"  onMouseOver="iconQQ()"  onMouseOut="iconQQ2()" target="_blank" id="QQ" class="iconright" title="加入我滴快乐群聊八">
+				<img  id="imgQQ" alt="QQ" class="icone" style="height:30px" src="icon/QQ.png"></a>
+		    <a href="https://weibo.com/5354712034/profile?topnav=1&wvr=6" id="twitter" onMouseOver="icontwitter2()" onMouseOut="icontwitter()" target="_blank" class="iconright" title="关注我滴快乐微博吧"><img id="imgtwitter" alt="微博" class="icone" style="height:25px" src="icon/微博.png"></a>
+		    <a href="https://music.163.com/#/user/home?id=305943479" id="cloudmusic" onMouseOver="iconmusic2()" onMouseOut="iconmusic()" target="_blank" class="iconright" title="求求你关注一下我滴网易云八"><img alt="网易云" id="imgcloudmusic" class="icone" style="height:30px" src="icon/网易云.png"></a>
+		</li>
+		</ul>
+	   <ul class="remarks">
+		<li><a class="author">作者：</a><a class="author">···</a></li>
+		   <li><a href="page.html" class="back">back</a></li>
+		</ul>
+	</div><br>
+	<div class="plate">
+		<p style="text-align: center; font-size: 20px; font:sans-serif;text-shadow:5px 2px 6px #000;">视频介绍</p>
+	 <video src="video/dark souls3.mp4" controls="controls" style="width: 600px; height: 400px; margin-top:10px; margin-left: 100px;" alt="视频"></video>
+	</div>
+   	<audio  onLoadedMetadata="musicname()" id="playmusic" src="背景音乐/タイナカ彩智 - 一番星.mp3"  ></audio>
+	<div class="btn-audio" id="music" align="left" >
+		<ul class="musicul"><li id="musicimg" style="background-image: url(背景音乐/一番星.png)"><a  href="javascript:void(0)"  onClick="playmusic()" class="stopbutton" ><img id="stopbutton2" alt="暂停图标" class="icone"  src="icon/播放.png"></a></li >
+			<li id="musicimg2"><a href="javascript:void(0)" onClick="left()" id="leftslide" ><img alt="箭头" id="arrow" src="icon/右箭头.png"></a>
+			<ul  id="controlmusic" class="controlmusic2">
+				<li id="musicname1"><a id="musicname">歌曲名字</a>	
+					<a href="javascript:void(0)" onClick="previousmusic()" class="musicplay"><img src="icon/left.png" alt="playmusic" class="musicicon"></a>
+					<a href="javascript:void(0)" onClick="playmusic()" class="musicplay"><img alt="playmusic" id="musicicon1" src="icon/play.png"></a>
+					<a class="musicplay" href="javascript:void(0)" onClick=" nextmusic()"><img alt="playmusic" class="musicicon" src="icon/right.png"></a></li><br>
+				<li id="musicmessage">
+					<div class="progress" onMouseDown="progressmouseadd(event)" id="all-progress2">
+						<div class="allprogress"  id="all-progress">
+							<div class="progresscontrol"  id="nowprogress">
+                                <span id="progress-button" ></span>
+                    </div></div></div>
+					<a id="musicplaytime">00:04/03:51</a>
+				</li>
+				
+				
+				</ul>
+			</li></ul>
+		
+	</div>
+
+</body>
+	
+</html>
